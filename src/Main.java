@@ -35,7 +35,7 @@ public class Main
         else //Dont have an int need to clear the trash
         {
             trash = console.nextLine();
-            System.out.println("You entered" + trash + ", not a number!");
+            System.out.println("You entered " + trash + ", not a number!");
             System.out.println("Run the program again with the correct input.");
         }
 
