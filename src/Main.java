@@ -14,7 +14,7 @@ public class Main
 
         System.out.print("Enter the item price: ");
 
-        if(console.hasNextInt())
+        if(console.hasNextDouble())
         {
             itemPrice = console.nextDouble();
             console.nextLine();
@@ -39,9 +39,6 @@ public class Main
             System.out.println("Run the program again with the correct input.");
         }
 
-
     }
-
-
 
 }
